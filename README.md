@@ -9,13 +9,13 @@ Here I want to thank the youtuber (not sponsored or something else) **[typecraft
 
 ## What is in this config?
 
-This configuration is a based on [lazy.nvim]{https://www.lazy.folke.io} and currently consists of the following plugins:
+This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and currently consists of the following plugins:
 
 - **monokai-pro** - my preffered color scheme (yes, it is not *catpuccin*)
 - **neotree** - revealing the filesystem on the side
 - **telescope** - for live grep and fzf
 - **treesitter** - indentation and highliting of code
 
-For the detailed configuration lookup the [init.lua]{./init.lua} file. It also contains some keybind configurations.
+For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 
-I will also make a [cheat sheet]{./cheatsheet.md} with important commands that I use in NeoVim. ***This is still work in progress!***
+I will also make a [cheat sheet](./cheatsheet.md) with important commands that I use in NeoVim. ***This is still work in progress!***
