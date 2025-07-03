@@ -18,4 +18,28 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
 
 For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 
+
 I will also make a [cheat sheet](./cheatsheet.md) with important commands that I use in NeoVim. ***This is still work in progress!***
+
+## You want to use the config?
+
+To use this configuration just clone this reposiroy in your ~/.config/nvim on linux
+
+```
+cd ~/.config
+git clone https://github.com/SEsnorre/nvim-config.git nvim
+```
+
+or %userprofile%\AppData\local\nvim on windows.
+
+```
+cd ~/.config
+git clone https://github.com/SEsnorre/nvim-config.git nvim
+```
+
+Keep in mind that you will need to have some sort of c compiler installed.
+
+## Suggestions?
+
+Feel free to open a discusion github to suggest changes or optimizations if you have found something that can be done better.
+
