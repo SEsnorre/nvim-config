@@ -26,3 +26,6 @@ config.setup({
     highlight = {enable = true},
     indent = {enable = true},
 })
+
+-- Neotree
+vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>')
