@@ -30,10 +30,10 @@ cd ~/.config
 git clone https://github.com/SEsnorre/nvim-config.git nvim
 ```
 
-or %userprofile%\AppData\local\nvim on windows.
+or ~\AppData\local\nvim on windows.
 
 ```
-cd ~/.config
+cd ~\AppData\local
 git clone https://github.com/SEsnorre/nvim-config.git nvim
 ```
 
