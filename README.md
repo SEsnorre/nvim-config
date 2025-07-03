@@ -1,11 +1,11 @@
 # Personal NeoVim configuration using Lazy.vim
 
-I'm switching to NeoVim because I want to have a more productive and lightwheight development environment under my hands. Switching between keyboard and mouses is kind of anoying and I want to use my mouse as little as possible.
+I'm switching to [NeoVim](https://neovim.io/) because I want to have a more productive and lightwheight development environment under my hands. Switching between keyboard and mouses is kind of anoying and I want to use my mouse as little as possible.
 
 > Why wasting time switching between Input devices?
 
-This was my original question and I have seen a lot of great Videos on that Topic.
-Here I want to thank the youtuber (not sponsored or something else) **[typecraft](https://www.youtube.com/@typecraft_dev)** for his amazing videos thath got me into this and thath helped me start and configure Neovim.
+This was my original question and I have seen a lot of great videos on that topic.
+Here I want to thank the youtuber (not sponsored or something else) **[typecraft](https://www.youtube.com/@typecraft_dev)** for his amazing videos thath got me into this and thath helped me start and configure NeoVim.
 
 ## What is in this config?
 
