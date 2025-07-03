@@ -5,7 +5,7 @@ I'm switching to NeoVim because I want to have a more productive and lightwheigh
 > Why wasting time switching between Input devices?
 
 This was my original question and I have seen a lot of great Videos on that Topic.
-Here I want to thank the youtuber (not sponsored or something else) **[typecraft]{https://www.youtube.com/@typecraft_dev}** for his amazing videos thath got me into this and thath helped me start and configure Neovim.
+Here I want to thank the youtuber (not sponsored or something else) **[typecraft](https://www.youtube.com/@typecraft_dev)** for his amazing videos thath got me into this and thath helped me start and configure Neovim.
 
 ## What is in this config?
 
