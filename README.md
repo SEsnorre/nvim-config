@@ -14,6 +14,7 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
 - **monokai-pro** - my preffered color scheme (yes, it is not *catpuccin*)
 - **neotree** - revealing the filesystem on the side
 - **telescope** - for live grep and fzf
+    - **telescope-ui-select** - NeoVim core stuff can fill telescope picker
 - **treesitter** - indentation and highliting of code
 - **lualine** - beautiful status line for NeoVim
 - **lsp-configuration** - config for lps consists of multiple plugins
