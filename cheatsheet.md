@@ -3,6 +3,21 @@
 Here I  will collect keybindings that are specific to this configuration or general NeoVim/Vim stuff. Mostly it will be stuff i alway have to look up.
 I may be incomplete.
 
+## Neotree
+
+|Keys|Mode|Description|
+|---|---|---|
+|<C-n>|n|toggle neotree left|
+|s|n|open file in new vertical window|
+|S|n|open file in new horizontal window|
+
+## Telescope
+
+|Keys|Mode|Description|
+|---|---|---|
+|<C-p>|n|fuzzifind file in workspace|
+|<Leader>fg|n|live grep in workspace|
+
 ## Lsp
 
 |Keys|Mode|Description|
