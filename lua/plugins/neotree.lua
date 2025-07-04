@@ -13,4 +13,7 @@ return {
   opts = {
     -- fill any relevant options here
   },
+  config = function()
+      vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')
+  end
 }
