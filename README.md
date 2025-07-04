@@ -16,6 +16,9 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
 - **telescope** - for live grep and fzf
 - **treesitter** - indentation and highliting of code
 - **lualine** - beautiful status line for NeoVim
+- **lsp-configuration** - config for lps consists of multiple plugins
+    - **mason**
+    - **lsp-config**
 
 For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 
@@ -23,6 +26,12 @@ For the detailed configuration lookup the [init.lua](./init.lua) file. It also c
 I will also make a [cheat sheet](./cheatsheet.md) with important commands that I use in NeoVim. ***This is still work in progress!***
 
 ## You want to use the config?
+
+### Important
+
+You need NeoVim 0.10 or above or LSP wont work
+
+### How to use it?
 
 To use this configuration just clone this reposiroy in your ~/.config/nvim on linux
 
