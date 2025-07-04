@@ -15,6 +15,7 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
 - **neotree** - revealing the filesystem on the side
 - **telescope** - for live grep and fzf
 - **treesitter** - indentation and highliting of code
+- **lualine** - beautiful status line for NeoVim
 
 For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 
