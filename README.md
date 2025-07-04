@@ -17,8 +17,9 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
 - **treesitter** - indentation and highliting of code
 - **lualine** - beautiful status line for NeoVim
 - **lsp-configuration** - config for lps consists of multiple plugins
-    - **mason**
-    - **lsp-config**
+    - **mason** - installing lspserver
+    - **nvim-lspconfig** - bridge berween nvim and lsp servers
+    - **mason-lspconfig** - conifg for lsp server installation
 
 For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 
@@ -27,11 +28,10 @@ I will also make a [cheat sheet](./cheatsheet.md) with important commands that I
 
 ## You want to use the config?
 
-### Important
+>[!Important]
+>
+>You need NeoVim 0.10 or above or LSP wont work
 
-You need NeoVim 0.10 or above or LSP wont work
-
-### How to use it?
 
 To use this configuration just clone this reposiroy in your ~/.config/nvim on linux
 
@@ -47,7 +47,7 @@ cd ~\AppData\local
 git clone https://github.com/SEsnorre/nvim-config.git nvim
 ```
 
-Keep in mind that you will need to have some sort of c compiler installed.
+Keep in mind that you will need also some dependencies like a c compiler and npm installed. It also depends on how you configure your setup.
 
 ## Suggestions?
 
