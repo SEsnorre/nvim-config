@@ -28,3 +28,9 @@ I may be incomplete.
 |gri|n|vim.lsp.buf.implementation()|
 |grt|n|vim.lsp.buf.type_definition()|
 |K|n|vim.lsp.buf.hover()|
+
+## none-ls
+
+|Keys|Mode|Description|
+|---|---|---|
+|<leader>gf|n|formatting|

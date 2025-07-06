@@ -21,6 +21,7 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
     - **mason** - installing lspserver
     - **nvim-lspconfig** - bridge berween nvim and lsp servers
     - **mason-lspconfig** - conifg for lsp server installation
+- **none-ls** - linting
 
 For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 
