@@ -1,13 +1,40 @@
 return {
-	"nvimtools/none-ls.nvim",
-	config = function()
-		local null_ls = require("null-ls")
-		null_ls.setup({
-			sources = {
-				null_ls.builtins.formatting.stylua,
-			},
-		})
+    "nvimtools/none-ls.nvim",
+    config = function()
+        local null_ls = require("null-ls")
 
-		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
-	end,
+        -- code action sources
+        local code_actions = null_ls.builtins.code_actions
+
+        -- diagnostic sources
+        local diagnostics = null_ls.builtins.diagnostics
+
+        -- formatting sources
+        local formatting = null_ls.builtins.formatting
+
+        -- hover sources
+        --local hover = null_ls.builtins.hover
+
+        -- completion sources
+        --local completion = null_ls.builtins.completion
+
+        null_ls.setup({
+            sources = {
+                --general
+                code_actions.refractoring,
+                formatting.prettier,
+                --lua
+                formatting.stylua,
+                diagnostics.selene,
+                --django
+                formatting.djlint,
+                --python
+                diagnostics.pylint,
+                formatting.isort,
+                formatting.black,
+            },
+        })
+
+        vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
+    end,
 }
