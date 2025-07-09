@@ -21,7 +21,6 @@ return {
         null_ls.setup({
             sources = {
                 --general
-                code_actions.refractoring,
                 formatting.prettier,
                 --lua
                 formatting.stylua,
