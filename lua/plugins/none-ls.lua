@@ -4,7 +4,7 @@ return {
         local null_ls = require("null-ls")
 
         -- code action sources
-        local code_actions = null_ls.builtins.code_actions
+        --local code_actions = null_ls.builtins.code_actions
 
         -- diagnostic sources
         local diagnostics = null_ls.builtins.diagnostics
