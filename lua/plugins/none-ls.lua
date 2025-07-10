@@ -24,7 +24,6 @@ return {
                 formatting.prettier,
                 --lua
                 formatting.stylua,
-                diagnostics.selene,
                 --django
                 formatting.djlint,
                 --python
