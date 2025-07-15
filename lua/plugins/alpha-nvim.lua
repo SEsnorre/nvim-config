@@ -1,12 +1,27 @@
 return {
-	"goolord/alpha-nvim",
-	-- dependencies = { 'echasnovski/mini.icons' },
-	dependencies = { "nvim-tree/nvim-web-devicons" },
-	config = function()
-		local startify = require("alpha.themes.startify")
-		-- available: devicons, mini, default is mini
-		-- if provider not loaded and enabled is true, it will try to use another provider
-		startify.file_icons.provider = "devicons"
-		require("alpha").setup(startify.config)
-	end,
+    "goolord/alpha-nvim",
+    -- dependencies = { 'echasnovski/mini.icons' },
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    config = function()
+        local startify = require("alpha.themes.startify")
+        -- available: devicons, mini, default is mini
+        -- if provider not loaded and enabled is true, it will try to use another provider
+        startify.section.header.val = {
+            --[[                               __                ]]
+            --[[  ___     ___    ___   __  __ /\_\    ___ ___    ]]
+            --[[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]]
+            --[[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]]
+            --[[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]]
+            --[[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]]
+
+            [[███████╗███╗   ██╗ ██████╗ ██████╗ ██████╗ ██████╗ ███████╗      ███╗   ██╗██╗   ██╗██╗███╗   ███╗]],
+            [[██╔════╝████╗  ██║██╔═══██╗██╔══██╗██╔══██╗██╔══██╗██╔════╝      ████╗  ██║██║   ██║██║████╗ ████║]],
+            [[███████╗██╔██╗ ██║██║   ██║██████╔╝██████╔╝██████╔╝█████╗  █████╗██╔██╗ ██║██║   ██║██║██╔████╔██║]],
+            [[╚════██║██║╚██╗██║██║   ██║██╔══██╗██╔══██╗██╔══██╗██╔══╝  ╚════╝██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║]],
+            [[███████║██║ ╚████║╚██████╔╝██║  ██║██║  ██║██║  ██║███████╗      ██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║]],
+            [[╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝      ╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝]],
+        }
+        startify.file_icons.provider = "devicons"
+        require("alpha").setup(startify.config)
+    end,
 }
