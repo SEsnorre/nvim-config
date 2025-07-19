@@ -22,6 +22,15 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
     - **nvim-lspconfig** - bridge berween nvim and lsp servers
     - **mason-lspconfig** - conifg for lsp server installation
 - **none-ls** - linting
+- **web-devicons**
+- **autoclose** - autoclose brackets and quotes
+- **completion**
+    - **nvim-cmp**
+    - **luasnip**
+    - **cmp-nvim-lsp**
+- **alpha-nvim** - startpage
+- **cheatsheet** - to have a nvim cheatsheet at hand
+- **bufferline** - display active buffers
 
 For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 

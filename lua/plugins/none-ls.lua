@@ -27,7 +27,9 @@ return {
                 --django
                 formatting.djlint,
                 --python
-                diagnostics.pylint,
+                --diagnostics.pylint,
+                diagnostics.ruff,
+                diagnostics.mypy,
                 formatting.isort,
                 formatting.black,
             },
