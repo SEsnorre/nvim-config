@@ -31,6 +31,7 @@ This configuration is a based on [lazy.nvim](https://www.lazy.folke.io) and curr
 - **alpha-nvim** - startpage
 - **cheatsheet** - to have a nvim cheatsheet at hand
 - **bufferline** - display active buffers
+- **autosession** - reopen buffers
 
 For the detailed configuration lookup the [init.lua](./init.lua) file. It also contains some keybind configurations.
 
