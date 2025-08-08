@@ -65,3 +65,4 @@ Keep in mind that you will need also some dependencies like a c compiler and npm
 
 Feel free to open a discusion github to suggest changes or optimizations if you have found something that can be done better.
 
+
