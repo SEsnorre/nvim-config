@@ -1,9 +1,7 @@
 return {
 	{
 		"mason-org/mason.nvim",
-		opts = {
-            ensure_installed = {}
-        },
+		opts = {},
 	},
 	{
 		"mason-org/mason-lspconfig.nvim",
