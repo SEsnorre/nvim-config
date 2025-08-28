@@ -8,6 +8,7 @@ return {
             "saadparwaiz1/cmp_luasnip",
             "rafamadriz/friendly-snippets",
         },
+        run = "make install_jsregexp",
     },
     {
         "hrsh7th/nvim-cmp",
