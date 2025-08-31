@@ -6,7 +6,7 @@ return {
 	{
 		"mason-org/mason-lspconfig.nvim",
 		opts = {
-			--ensure_installed = { "lua_ls", "pyright", "emmet_language_server" },
+			ensure_installed = { "lua_ls", "pyright", "emmet_language_server" },
 			auto_install = true,
 		},
 		dependencies = {
@@ -17,7 +17,7 @@ return {
 	{
 		"neovim/nvim-lspconfig",
 		lazy = false,
-		config = function()
+		confia = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 			vim.lsp.config("*", { capabilities = capabilities })
