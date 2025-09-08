@@ -16,10 +16,11 @@ vim.keymap.set({'n'},'<C-l>', '<C-w>l', opts)
 
 -- move between buffers
 vim.keymap.set({'n'},'<leader>n', ':bn<CR>', opts)
-vim.keymap.set({'n'},'<leader>p', ':bp<CR>', opts)
+vim.keymap.set({'n'},'<leader>b', ':bp<CR>', opts)
 vim.keymap.set({'n'},'<leader>x', ':bd<CR>', opts)
 
 -- yanking to clipboard and pasting from clipboard
-vim.keymap.set({'n'},'<leader>y', '"+y', opts)
-vim.keymap.set({'n'},'<leader>p', '"+p', opts)
+vim.keymap.set({'n', 'v'},'<leader>y', '"+y', opts)
+vim.keymap.set({'n', 'v'},'<leader>p', '"+p', opts)
+vim.keymap.set({'n', 'v'},'<leader>P', '"+P', opts)
 
