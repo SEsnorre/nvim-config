@@ -17,12 +17,32 @@ return {
 	{
 		"neovim/nvim-lspconfig",
 		lazy = false,
-		confia = function()
+		config = function()
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
+			-- Global default config
 			vim.lsp.config("*", { capabilities = capabilities })
-
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+
+			-- Cross Platform .venv detection
+			local function get_python_path()
+				local cwd = vim.fn.getcwd()
+				if vim.loop.os_uname().version:match("Windows") then
+					return cwd .. "\\.venv\\Scripts\\python.exe"
+				else
+					return cwd .. "/.venv/bin/python"
+				end
+			end
+
+			-- pyright setup
+			vim.lsp.config("pyright", {
+				capabilities = capabilities,
+				settings = {
+					python = {
+						pythonPath = get_python_path(),
+					},
+				},
+			})
 		end,
 	},
 }
