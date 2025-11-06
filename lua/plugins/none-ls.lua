@@ -4,7 +4,7 @@ return {
 		local null_ls = require("null-ls")
 
 		-- code action sources
-		--local code_actions = null_ls.builtins.code_actions
+		local code_actions = null_ls.builtins.code_actions
 
 		-- diagnostic sources
 		local diagnostics = null_ls.builtins.diagnostics
@@ -13,10 +13,10 @@ return {
 		local formatting = null_ls.builtins.formatting
 
 		-- hover sources
-		--local hover = null_ls.builtins.hover
+		local hover = null_ls.builtins.hover
 
 		-- completion sources
-		--local completion = null_ls.builtins.completion
+		local completion = null_ls.builtins.completion
 
 		null_ls.setup({
 			sources = {
@@ -27,9 +27,7 @@ return {
 				--django
 				formatting.djlint,
 				--python
-				--diagnostics.pylint,
-				--diagnostics.mypy,
-
+                code_actions.refactoring,
 				formatting.isort,
 				formatting.black,
 			},
