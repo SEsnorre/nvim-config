@@ -26,3 +26,6 @@ vim.keymap.set({'n', 'v'},'<leader>P', '"+P', opts)
 
 -- clear search highlighting
 vim.keymap.set({'n'},'<leader>c', ':noh<CR>', opts)
+
+-- source config file 
+vim.keymap.set({'n'},'<leader>sc', ':source $MYVIMRC<CR>', opts)
