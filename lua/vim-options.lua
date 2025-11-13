@@ -13,10 +13,6 @@ vim.keymap.set({'n'},'<C-h>', '<C-w>h', opts)
 vim.keymap.set({'n'},'<C-j>', '<C-w>j', opts)
 vim.keymap.set({'n'},'<C-k>', '<C-w>k', opts)
 vim.keymap.set({'n'},'<C-l>', '<C-w>l', opts)
-vim.keymap.set({'n'},'<C->>', '<C-w>>', opts)
-vim.keymap.set({'n'},'<C-<>', '<C-w><', opts)
-vim.keymap.set({'n'},'<C-+>', '<C-w>+', opts)
-vim.keymap.set({'n'},'<C-->', '<C-w>-', opts)
 
 -- move between buffers
 vim.keymap.set({'n'},'<leader>n', ':bn<CR>', opts)
@@ -28,3 +24,5 @@ vim.keymap.set({'n', 'v'},'<leader>y', '"+y', opts)
 vim.keymap.set({'n', 'v'},'<leader>p', '"+p', opts)
 vim.keymap.set({'n', 'v'},'<leader>P', '"+P', opts)
 
+-- clear search highlighting
+vim.keymap.set({'n'},'<leader>c', ':noh<CR>', opts)
