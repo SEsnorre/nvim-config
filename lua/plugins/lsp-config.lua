@@ -6,7 +6,7 @@ return {
 	{
 		"mason-org/mason-lspconfig.nvim",
 		opts = {
-			ensure_installed = { "lua_ls", "pyrefly", "emmet_language_server", 'jsonls'},
+			ensure_installed = { "lua_ls", "pyrefly", "pyright", "emmet_language_server", 'jsonls'},
 			auto_install = true,
 		},
 		dependencies = {

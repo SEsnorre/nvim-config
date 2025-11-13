@@ -27,7 +27,7 @@ return {
 				--django
 				formatting.djlint,
 				--python
-                code_actions.refactoring,
+				code_actions.refactoring,
 				formatting.isort,
 				formatting.black,
 			},
